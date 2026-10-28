@@ -26,8 +26,12 @@ function classificarIMC(imc) {
 
 let classificacao = classificarIMC(resultado)
 
+/*
 function relatorio(peso, altura, resultado) {
 return resultado }
+*/
+
+const relatorio = (peso, altura, resultado) => {return resultado}
 
 let relatorio1 = relatorio(peso, altura, resultado);
 alert("Seu peso é: " + peso + "\nSua altura é: " + altura + "\nSeu IMC é: " + resultado.toFixed(2) + "\nSua classificação é: " + classificacao);
